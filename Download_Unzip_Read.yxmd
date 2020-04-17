@@ -148,7 +148,7 @@ Workflow:      https://github.com/scallybrian/Alteryx-Unzip-Data-Blog</Text>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="53.00002" y="197" width="397" height="180" />
+        <Position x="53.00003" y="197" width="397" height="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -253,7 +253,7 @@ Workflow:      https://github.com/scallybrian/Alteryx-Unzip-Data-Blog</Text>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="701" y="617" width="315.5609" height="210" />
+        <Position x="701" y="617" width="315.5609" height="180" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -313,12 +313,12 @@ Workflow:      https://github.com/scallybrian/Alteryx-Unzip-Data-Blog</Text>
           <Properties>
             <Configuration>
               <FormulaFields>
-                <FormulaField expression="[Engine.TempFilePath] + 'Data_In_Archive.csv'" field="FileLocation" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.TempFilePath] + '*.csv'" field="FileLocation" size="1073741823" type="V_WString" />
               </FormulaFields>
             </Configuration>
             <Annotation DisplayMode="0">
               <Name />
-              <DefaultAnnotationText><![CDATA[FileLocation = [Engine.TempFilePath] + 'Data_In_Archive.csv'
+              <DefaultAnnotationText><![CDATA[FileLocation = [Engine.TempFilePath] + '*.csv'
 ]]></DefaultAnnotationText>
               <Left value="False" />
             </Annotation>
