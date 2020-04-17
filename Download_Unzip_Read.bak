@@ -130,7 +130,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Text>Blog:              https://wordpress.com/view/vizerybusiness.wordpress.com
+          <Text>Blog:             https://wordpress.com/view/vizerybusiness.wordpress.com
 Data:             https://github.com/scallybrian/Alteryx-Unzip-Data-Blog/blob/master/Archived_Data.zip?raw=true
 Workflow:      https://github.com/scallybrian/Alteryx-Unzip-Data-Blog</Text>
           <Font name="Arial" size="14.25" style="0" />
