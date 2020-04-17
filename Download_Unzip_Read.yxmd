@@ -257,7 +257,7 @@ Workflow:      https://github.com/scallybrian/Alteryx-Unzip-Data-Blog</Text>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Caption>Step 3 - Read in the unzipped .csv data file</Caption>
+          <Caption>Step 4 - Read in the unzipped .csv data file</Caption>
           <Style TextColor="#314c4a" FillColor="#ceffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
           <Disabled value="False" />
           <Folded value="False" />
